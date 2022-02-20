@@ -1,0 +1,92 @@
+:root{
+  --color-white: #FFFFFF;
+  --color-gray-1: #F8F9FA;
+  --color-gray-2: #E9ECEF;
+  --color-gray-3: #868E96;
+  --color-gray-4: #212529;
+  --color-secondary: #03B898;
+}
+
+.card{
+  background-color: var(--color-gray-1);
+  padding: 15px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.entrada{
+  border-left: 4px solid var(--color-secondary);
+}
+
+.saida{
+  border-left: 4px solid var(--color-gray-2);
+}
+
+.card:hover{
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+}
+
+.card-tipo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.card-tipo-operacao{
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-gray-3);
+}
+
+.card-info{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 20px;
+}
+
+.card-info-preco{
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-gray-4);
+  text-align: left;
+  margin: 4px;
+}
+
+.card-tipo.vazio{
+  width: 100%;
+}
+
+.titulo-vazio{
+  width: 80%;
+  height: 16px;
+  background-color: var(--color-gray-2);
+  filter: blur(1);
+  box-sizing: border-box;
+}
+
+.card-tipo-operacao{
+  width: 30%;
+  height: 16px;
+  background-color: var(--color-gray-2);
+  filter: blur(1);
+  margin-top: 24px;
+}
+
+h2{
+  display: block;
+  font-size: 20px;
+  font-family: 'Nunito';
+}

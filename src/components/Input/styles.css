@@ -1,0 +1,39 @@
+:root{
+  --color-gray-1: #F8F9FA;
+  --color-gray-4: #212529;
+  --color-gray-50: #868E96;
+}
+
+.input{
+  font-family: 'Nunito';
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-50);
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.input:focus, .input:hover{
+  border-color: var(--color-gray-4);
+  color: var(--color-gray-4);
+}
+
+.input-valor{
+
+  box-sizing: border-box;
+  background: url(../../img/R$.svg) no-repeat center right #FFF;
+  background-position-x: calc(100% - 10px);
+  width: 130px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}

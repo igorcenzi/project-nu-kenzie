@@ -1,0 +1,33 @@
+:root{
+  --color-gray-2: #E9ECEF;
+  --color-gray-3:#868E96;
+  --color-gray-4: #212529;
+  --color-white: #FFFFFF;
+}
+
+
+.selectType{
+  appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  padding: 10px 25px 10px 15px;
+  background: url(../../img/ANGLE-DOWN.svg) no-repeat center right #FFF;
+  background-position-x: calc(100% - 10px);
+  font-size: 12px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: var(--color-gray-3);
+}
+
+.selectType:hover{
+  border-color: var(--color-gray-4);
+  color: var(--color-gray-4);
+}
+
+.selectType *{
+  background-color: var(--color-white);
+  color: var(--color-gray-3);
+  font-size: 12px;
+  margin: 10px 15px;
+  border: none;
+}

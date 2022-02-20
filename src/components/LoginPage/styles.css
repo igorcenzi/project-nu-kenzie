@@ -1,0 +1,86 @@
+:root{
+  --color-gray-4:#212529;
+  --color-white: #FFFFFF;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.backGround{
+  background-color: var(--color-gray-4);
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.background-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.backGround-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+}
+
+.background-ilustracao{
+  display: none;
+  box-sizing: border-box;
+}
+.background-ilustracao img{
+  max-width: 400px;
+}
+.backGround-info p{
+  color: var(--color-white);
+  font-size: 38px;
+  line-height: 48px;
+  font-family: 'Nunito';
+  font-weight: 800;
+  margin: 0;
+}
+
+.backGround-info span{
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-white);
+  text-align: left;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.background-logo{
+  width: 120px;
+  height: 20px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 850px){
+  .backGround{
+    justify-content: center;
+    padding: 0 60px;
+  }
+
+  .backGround-info{
+  }
+
+  .background-ilustracao{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}

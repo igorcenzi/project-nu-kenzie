@@ -1,0 +1,92 @@
+:root{
+  --color-grey-100: #212529;
+  --color-grey-50: #868E96;
+  --color-white: #FFFFFF;
+}
+
+form{
+  font-family: 'Inter';
+  font-weight: 400;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  padding: 40px 24px;
+  gap: 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+.form-descricao{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.form-descricao input{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+p{
+  text-align: left;
+  font-size: 12px;
+  color: var(--color-grey-100);
+}
+
+.form-descricao p, .form-descricao span{
+  color: var(--color-grey-100);
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+.form-descricao span{
+  color: var(--color-grey-50);
+  margin-top: 4px;
+}
+
+.form-valor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-valor-quantidade{
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.form-valor-tipo{
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.form-button-add{
+  width: 100%;
+}
+
+input{
+  font-family: 'Inter';
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+}
+
+
+.selectType{
+  width: 100%;
+  text-align: left;
+}
